@@ -1,0 +1,32 @@
+.overlay {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    cursor: pointer;
+    opacity: 1; 
+    pointer-events: none;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.horizontal-line {
+    width: 50%;
+    height: 1px;
+    background-color: rgb(221, 215, 215); 
+    margin: 0 auto; 
+  }
+
+  .horizontal-line2 {
+    width: 30%;
+    height: 1px;
+    background-color: rgb(196, 196, 196); 
+  }
+  
